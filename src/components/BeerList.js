@@ -11,9 +11,9 @@ const beerlist = beers.map((beer, index)=>{
 return(
     <div>
         <h1>beerlist</h1>
-        <ul>
+        <div className='beerList'>
         {beerlist}
-        </ul>
+        </div>
     </div>
  
 )

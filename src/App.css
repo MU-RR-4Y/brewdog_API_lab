@@ -28,6 +28,34 @@
   color: #61dafb;
 }
 
+img {
+  width: 20%;
+  height: 40%;
+}
+
+.beer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: antiquewhite;
+  border: 2px black solid;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+
+.beerList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.moreinfo{
+  display: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
