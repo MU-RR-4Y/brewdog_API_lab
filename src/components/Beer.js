@@ -1,15 +1,19 @@
 import React from "react";
 
-const Beer = ()=>{
+const Beer = ({beer})=>{
 
-return(
-<div>
-    <h1>beer</h1>
-</div>
+    return(
+    <div>
+        <li>
+            <h2>{beer['name']}</h2>
+            <p>{beer['description']}</p>
+            <img src={beer['image_url']} alt="" />
 
-    
-)
-
+        
+        
+        </li>
+    </div>
+    )
 
 } 
 
